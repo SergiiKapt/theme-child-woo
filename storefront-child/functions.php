@@ -67,10 +67,10 @@ if (!function_exists('wpbl_exmaple_hook')) {
         set_view_count_product($id);
 
         if ($count = get_view_count_product($product->get_id())) {
-            echo '<div class="view_count_product"><span class="title_vies_count">views:</span> <span class="counter_view_count">' . $count . '</span></div>';
+            echo '<div class="view_count_product"><span class="title_vies_count">' . __("Количество просмотров"). ':</span> <span class="counter_view_count">' . $count . '</span></div>';
         }
         if ($count = get_last_order_date_product($product->get_id())) {
-            echo '<div class="view_count_product"><span class="title_vies_count">last order date:</span> <span class="counter_view_count">' . $count . '</span></div>';
+            echo '<div class="view_count_product"><span class="title_vies_count">' . __("Дата последней покупки"). ':</span> <span class="counter_view_count">' . $count . '</span></div>';
         }
     }
 }
@@ -83,7 +83,7 @@ if (!function_exists('view_count_archive_products')) {
         global $product;
 
         if ($count = get_view_count_product($product->get_id())) {
-            echo '<div class="view_count_product"><span class="title_vies_count">views:</span> <span class="counter_view_count">' . $count . '</span></div>';
+            echo '<div class="view_count_product"><span class="title_vies_count">' . __("Количество просмотров"). ':</span> <span class="counter_view_count">' . $count . '</span></div>';
         }
     }
 }
