@@ -1,0 +1,15 @@
+/*
+Theme Name: 	Storefront Child
+Template:       Storefront
+Theme URI: 		https://www.ksask.net/
+Description: 	A child theme of Storefront Theme. Test theme.
+Author: 		Ksask.net
+Author URI: 	https://www.ksask.net/
+License: 		GNU General Public License v3 or later
+License URI: 	http://www.gnu.org/licenses/gpl-3.0.html
+Version: 		1.0.0
+
+*/
+
+@import url("../storefront/style.css");
+
