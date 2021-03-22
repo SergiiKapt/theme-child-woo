@@ -55,7 +55,7 @@ if (!function_exists('get_last_order_date_product')) {
     }
 }
 
-if (!function_exists('wpbl_exmaple_hook')) {
+if (!function_exists('view_count_single_product')) {
 
     add_action('woocommerce_single_product_summary', 'view_count_single_product', 20);
     function view_count_single_product()
